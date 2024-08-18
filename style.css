@@ -1,0 +1,197 @@
+
+
+/* __________________________________ In the side bar ________________________________*/
+
+/* Zoom function */
+.zoom {
+
+  text-decoration: none;
+}
+
+.zoom:hover {
+  transition: transform .5s;
+  transform: scale(1.2); 
+}
+
+/* Pacifista Logo */
+.logo-container{
+    width: 80%;
+    display: flex;
+   position: fixed;
+   top: 50px;
+   bottom: 60%;
+}
+
+/* The sidebar */
+.sidenav-container {
+  height: 93%; /* Full-height: remove this if you want "auto" height */
+  width: 20%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  top: 0; /* Stay at the top */
+  z-index: 1; /* Stay on top */
+  left: 0;
+  background-color: white; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+
+}
+
+
+/* The navigation menu links and hover */
+
+
+.sidenav-menu{
+  margin: top left bottom right;
+  padding-top: 300px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenavhover-container {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Social Media / other website Icons */
+.socilmedia-container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 20%;
+    right: 50%;
+    }
+
+
+
+/* Buttom copyright mark */
+
+/* __________________________________ Main Page - About Us ________________________________*/
+
+.download-firmprofile{
+  
+  position: fixed;
+  bottom: 12%;
+  right: 15%;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 12em;
+  margin: 0.25em;
+  background: rgb(201, 199, 199);
+  border: none;
+  outline: 2px black;
+
+}
+
+.download-firmprofile :hover
+{
+  position: fixed;
+  bottom: 12%;
+  right: 15%;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 12em;
+  margin: 0.23em;
+  background-color: gray;
+  border: none;
+  outline: 2px black;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: transform .5s;
+  transform: scale(1.2); 
+}
+
+.home-container {
+  
+  position: fixed;
+  height: calc(100vh);
+  width: 40%;
+  left: 60%;
+  right: calc(100vh);
+  top: 0; /* Stay at the top */
+  z-index: 1; /* Stay on top */
+  
+  overflow: hidden;
+}
+
+/* __________________________________ Main Page - Disclaimer ________________________________*/
+
+.mainpage-container {
+  overflow-x: hidden;
+  width: 60%;
+  height: calc(100vh);
+}
+
+
+
+
+/* Card Container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+/* Card styles */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  bottom: 10%;
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+/* __________________________________ WHoele page container ________________________________*/
+
+
+.wholepage-container {
+
+  position: fixed;
+  height: calc(100vh);
+  width: 100%;
+  left: 20%;
+  top: 0;
+  background-color: blanchedalmond;
+  overflow-y: scroll;
+  
+}
+
+/* __________________________________ Copyright/Social media bar ________________________________*/
+
+.copyright-container {
+  height: 7%; /* Full-height: remove this if you want "auto" height */
+  width: 100%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  bottom: 0; /* Stay at the bottom */
+  z-index: 1; /* Stay on top */
+  right: 0;
+  background-color: black; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+
+}
+  

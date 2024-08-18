@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pacifista</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./expertise.html">
+
+</head>
+<body>
+
+<!-- _________________________________________Sidebar/menu _________________________________-->
+
+<nav class="sidenav-container" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+
+  <dl><img src="./logo.png" height="30%" style="position:fixed; left: 3%; top: 10%; float: bottom; margin-bottom: 5px;"></dl>
+  
+  <dl><a href="./index.html" style="position: fixed; top: 40%; left: 3.5%; text-decoration:none; font-size: 43px;">Pacifista</a></dl>
+    <br>
+  <div class="sidenav-menu">
+
+    <div class="zoom"><dl><a href="./practice.html" style="text-decoration: none;">Practices</a></dl></div>
+    <div class="zoom"><dl><a href="./people.html" style="text-decoration: none;">People</a></dl></div>
+    <div class="zoom"><dl><a href="./contact.html" style="text-decoration: none;">Contact</a></dl></div>
+  </div>
+
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">&#9776;</a>
+  <span>Pacifista</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+
+<!-- !!!!!!!!!!!!!!!!!!!!PAGE CONTENT!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->  <!-- Contact (find a better was to demonstrate it) --> 
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Contact Us</b></h1>
+    <hr style="width:50px;border:5px solid black" class="w3-round">
+
+    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+  
+
+
+
+    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+   
+     <!--Form --> 
+    
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+
+
+  </div>
